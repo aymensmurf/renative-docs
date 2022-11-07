@@ -2273,14 +2273,12 @@ Overrides values in `gradle.properties` file of generated android based project
 ```json
 {
   "gradle.properties": {
-    "gradle.properties": {
       "android.debug.obsoleteApi": true,
       "debug.keystore": "debug.keystore",
       "org.gradle.daemon": true,
       "org.gradle.parallel": true,
       "org.gradle.configureondemand": true
     }
-  }
 }
 ```
 
